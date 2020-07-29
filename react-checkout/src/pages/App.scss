@@ -1,0 +1,15 @@
+.appWrapper {
+  background-color: grey;
+  height: 100vh;
+  .slick {
+    width: 90%;
+    margin: 0 auto;
+    .imgWrapper {
+      .img {
+        height: 200px;
+        margin-left: 10px;
+      }
+    }
+  }
+  
+}

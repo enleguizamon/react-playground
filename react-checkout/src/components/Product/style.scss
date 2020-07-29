@@ -1,0 +1,69 @@
+.productWrapper {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    .imgWrapper {
+        padding-top: 25px;
+        padding-left: 10px;
+        .img {
+           height: 150px;
+           width: 120px;
+           border-radius: 10px;
+        }
+    }
+    .dataWrapper {
+        padding-left: 10px;
+        .priceWrapper {
+            display: flex;
+            .price {
+                color: rgb(255, 110, 57);
+                margin-top: -10px;
+                margin-right: 20px;
+                font-weight: bold;
+            }
+            .oldPrice {
+                text-decoration: line-through;
+                margin-top: -10px;
+                font-size: 0.9rem;
+                font-weight: bold;
+            }
+        }
+        .counterWrapper {
+            height: 30px;
+            width: 90px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid rgb(80, 80, 80);
+            margin: 0 auto;
+            border-radius: 5px;
+            padding: 10px;
+            padding-bottom: 0px;
+            .less {
+                height: 20px;
+                border: none;
+                font-weight: bold;
+                font-size: 1rem;
+                background-color: rgb(196, 196, 196);
+                border-radius: 3px;
+                &:focus {
+                    outline: none;
+                }
+            }
+            .counter {
+                font-weight: bold;
+                font-size: 0.8rem;
+                font-size: 1rem;
+            }
+            .plus {
+                height: 20px;
+                border: none;
+                font-weight: bold;
+                font-size: 0.9rem;
+                background-color: rgb(196, 196, 196);
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
