@@ -1,13 +1,37 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 .appWrapper {
-  background-color: grey;
+  background-color: rgb(179, 173, 173);
   height: 100vh;
+  .appTitle {
+    padding-left: 15vw;
+    padding-top: 20vh;
+  }
   .slick {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
+    margin-top: 50px;
     .imgWrapper {
+      height: 200px;
+      margin-left: 10px;
       .img {
         height: 200px;
         margin-left: 10px;
+        border-radius: 10px;
+        &:hover {
+          height: 210px;
+        }
+      }
+      .productName {
+        text-decoration: transparent;
+        text-align: center;
+        font-weight: bold;
+      }
+      .productPrice {
+        text-align: center;
       }
     }
   }

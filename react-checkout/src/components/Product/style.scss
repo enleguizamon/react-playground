@@ -13,8 +13,10 @@
     }
     .dataWrapper {
         padding-left: 10px;
+        margin-top: 20px;
         .priceWrapper {
             display: flex;
+            margin-top: 20px;
             .price {
                 color: rgb(255, 110, 57);
                 margin-top: -10px;
@@ -29,15 +31,15 @@
             }
         }
         .counterWrapper {
-            height: 30px;
+            height: 35px;
             width: 90px;
             display: flex;
             justify-content: space-between;
             border: 1px solid rgb(80, 80, 80);
             margin: 0 auto;
+            margin-top: 20px;
             border-radius: 5px;
-            padding: 10px;
-            padding-bottom: 0px;
+            padding: 7px;
             .less {
                 height: 20px;
                 border: none;

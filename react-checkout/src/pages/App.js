@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.scss';
 import Slider from 'react-slick';
+import { Link } from "react-router-dom";
+import products from '../data/products.json'
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.settings= {
+    this.settings = {
       infinite: true,
       speed: 500,
       arrows: true,
@@ -15,26 +17,32 @@ class App extends React.Component {
       slidesToShow: 2,
       slidesToScroll: 1,
     }
+
+    this.state = {
+      data: products
+    }
   }
 
-  render () {
+  render() {
+    const { img, name, price } = this.state;
     return (
       <div className="appWrapper">
-        <p>Soy app</p>
+        <h1 className="appTitle">Products</h1>
         <Slider {...this.settings} className="slick">
-        <div className="imgWrapper">
-          <img className="img" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <div className="imgWrapper">
-          <img className="img" src="https://images.unsplash.com/photo-1548094891-c4ba474efd16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <div className="imgWrapper">
-          <img className="img" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        <div className="imgWrapper">
-          <img className="img" src="https://images.unsplash.com/photo-1548094891-c4ba474efd16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
-        </div>
-        </Slider> 
+
+          {this.state.data.map((item, key) => {
+            return (
+              <Link to="/checkout">
+                <div className="imgWrapper">
+                  <img className="img" src={item.img} />
+                  <p className="productName">{item.name}</p>
+                  <p className="productPrice">$ {item.price}</p>
+                </div>
+              </Link>
+            )
+          })}
+
+        </Slider>
       </div>
     );
   }

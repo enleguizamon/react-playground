@@ -1,0 +1,44 @@
+[
+    {
+        "id": "2",
+        "img": "https://www.yagmour.com.ar/arquivos/ids/236954-293-439/remera-betiana-print-negro-02.jpg?v=637166868601130000",
+        "name": "Shirt",
+        "price": 18.00,
+        "total": 18.00
+    },
+    {
+        "id": "3",
+        "img": "https://dafitistaticar-a.akamaihd.net/p/calvin-klein-8696-730384-1-catalog-new.jpg",
+        "name": "Jacket",
+        "price": 35.00,
+        "total": 35.00
+    },
+    {
+        "id": "4",
+        "img": "https://dafitistaticar-a.akamaihd.net/p/vitamina-0152-945554-1-catalog-new.jpg",
+        "name": "Black jean",
+        "price": 18.00,
+        "total": 18.00
+    },
+    {
+        "id": "5",
+        "img": "https://dafitistaticar-a.akamaihd.net/p/ay-not-dead-7090-727114-1-catalog-new.jpg",
+        "name": "Blue jean",
+        "price": 17.00,
+        "total": 17.00
+    },
+    {
+        "id": "6",
+        "img": "https://dafitistaticar-a.akamaihd.net/p/enc-4654-196105-1-catalog-new.jpg",
+        "name": "Sweter",
+        "price": 14.00,
+        "total": 14.00
+    },
+    {
+        "id": "7",
+        "img": "https://dafitistaticar-a.akamaihd.net/p/symmetria-9449-513084-1-catalog-new.jpg",
+        "name": "Bluse",
+        "price": 15.00,
+        "total": 15.00
+    }
+]
