@@ -1,0 +1,10 @@
+.navbar  {
+  height: 3rem;
+  width: 100%;
+  background-color: #3B1C32;
+  color: white;
+  padding-top: 1%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}

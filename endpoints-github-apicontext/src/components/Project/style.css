@@ -1,0 +1,36 @@
+.project {
+  height: 6.5rem;
+  width: 12rem;
+  margin: 0px 10px 0px 10px;
+  border: 2.5px solid #3B1C32;
+  border-radius: 5%;
+  padding-top: 10px;
+  background-color: #d4477b;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  list-style: none;
+  background-color: #d4477b;
+  overflow: hidden;
+}
+
+.button {
+  background-color: #abcab5;
+  margin: 10px 0px;
+  text-decoration: none;
+  border: 0.8px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+}
+
+.button:hover {
+  background-color: #919191;
+}
