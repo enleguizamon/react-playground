@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+}
+
+.navTitle {
+  color: white;
+  padding-top: 0.2rem;
+  font-weight: 600;
+}
+
+.input {
+  height: 1.8rem;
+  margin: 1rem 0px 0px 0.8rem;
+  background-color: rgb(146, 145, 145);
+  padding-left: 0.5rem;
+  border-radius: 4px;
+  color: white;
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(207, 206, 206);
+}

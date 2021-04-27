@@ -1,0 +1,19 @@
+.card {
+  height: 8rem;
+  width: 20rem;
+  display: flex;
+  margin: 2rem 2rem 0rem 0rem;
+  box-shadow: 3px 5px 8px #999797;
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: .2s;
+}
+
+.image {
+  height: 7.8rem;
+  margin-right: 1rem;
+}

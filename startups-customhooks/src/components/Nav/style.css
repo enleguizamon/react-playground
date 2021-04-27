@@ -1,0 +1,27 @@
+.nav {
+  height: 4rem;
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.agregar {
+  margin: 1.1rem 0rem 0rem 1.5rem;
+  padding-top: 0.25rem;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(39, 226, 139);
+  height: 1.7rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.agregar:hover {
+  background-color: rgb(8, 158, 88);
+}
